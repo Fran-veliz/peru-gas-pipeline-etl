@@ -1,0 +1,18 @@
+# Ignorar archivos de Python
+__pycache__/
+*.py[cod]
+venv/
+
+# Ignorar contenido de las carpetas, pero NO la carpeta en sí
+data/*
+!data/.gitkeep
+
+output/*
+!output/.gitkeep
+
+logs/*
+!logs/.gitkeep
+
+# Específicamente ignorar CSVs y TXTs si se escapan
+*.csv
+*.txt
